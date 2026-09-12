@@ -20,7 +20,7 @@ echo -e "${CYAN}========================================${NC}"
 echo -e "${CYAN}  ChessyNotCheesy Updater${NC}"
 echo -e "${CYAN}========================================${NC}"
 
-REPO="ItsMe-RiiK/ChessyNotCheesy"
+REPO="RiiK26/ChessyNotCheesy"
 LATEST_RELEASE_URL=$(curl -s https://api.github.com/repos/$REPO/releases/latest | grep "browser_download_url" | cut -d '"' -f 4 | grep 'zip')
 
 if [ -z "$LATEST_RELEASE_URL" ]; then

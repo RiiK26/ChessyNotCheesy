@@ -70,7 +70,7 @@ An automated script is provided to install all necessary dependencies and system
 <details>
 <summary><b>Option 1: Pre-compiled Releases (Recommended)</b></summary>
 
-Whenever a new version is released, an automated GitHub Action compiles it and packages it. You can download the latest `.zip` archive directly from the [Releases page](https://github.com/ItsMe-RiiK/ChessyNotCheesy/releases).
+Whenever a new version is released, an automated GitHub Action compiles it and packages it. You can download the latest `.zip` archive directly from the [Releases page](https://github.com/RiiK26/ChessyNotCheesy/releases).
 
 1. Download `ChessyNotCheesy-linux-x86_64.zip`.
 2. Extract the archive.
@@ -87,7 +87,7 @@ cd ChessyNotCheesy
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ItsMe-RiiK/ChessyNotCheesy.git
+git clone https://github.com/RiiK26/ChessyNotCheesy.git
 cd ChessyNotCheesy
 ```
 2. Run the installer to setup dependencies and udev permissions:
